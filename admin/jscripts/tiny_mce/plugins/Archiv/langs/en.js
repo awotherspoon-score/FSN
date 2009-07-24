@@ -1,0 +1,22 @@
+tinyMCE.addI18n('en.Archiv',{
+	Fdesc : "Insert a file",
+	Idesc : "Insert a image",
+	ErrorLoadingTree: "Error loading filetree!",
+	NoFiles : "This folder does not contain any files!",
+	ErrorLoadingDirContent : "Error loading dir content!",
+	FileDelete : "Delete file",
+	FileName: "Name",
+	FileType: "Type",
+	FileSize: "Size",
+	FileDimentions: "Dimentions",
+	FileInfo : "File info",
+	FileClickToAdd: "Click to add",
+	ErrorAddingFolder : "Error adding folder!",
+	ErrorDeletingFile : "Error deleting file!",
+	ErrorDeletingFolder : "Error deleting folder!",
+	QuestionFolderName : "Please enter a name for the folder",
+	QuestionPassword : "Please enter your password",
+	ErrorReadingSettingsFile : "Error reading the config!",
+	ConfirmDeleteFile : "Are you sure you whish to delete the file",
+	ConfirmDeleteFolder : "Are you sure you whish to delete the folder"	
+});

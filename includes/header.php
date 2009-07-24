@@ -1,0 +1,1 @@
+<a href="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>" title="home"><img src="<?php echo $_SERVER['DOCUMENT_ROOT']; ?>/images/header.jpg" alt="FSN Business Systems News & Analysis for Finance and IT Professionals" /></a>

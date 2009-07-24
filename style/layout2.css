@@ -1,0 +1,178 @@
+/* link colours */
+
+#secondary-nav .ceo-interview a{
+	/*color:#78c639 !important;*/
+	color:#666666 !important;
+}
+
+#secondary-nav .market-analysis a{
+	/*color:#b739c6 !important;*/
+	color:#666666 !important;
+}
+
+#secondary-nav .product-review a{
+	/*color:#e7356f !important;*/
+	color:#666666 !important;
+}
+
+#secondary-nav .webinar a{
+	/*color:#d78e1c !important;*/
+	color:#666666 !important;
+}
+
+#secondary-nav .white-paper a{
+	/*color:#359ee7 !important;*/
+	color:#666666 !important;
+}
+
+.section-product-review{
+	background:#e7356f !important;
+}
+
+.section-ceo-interview{
+	background:#78c639 !important;	
+}
+
+.section-market-analysis{
+	background:#b739c6 !important;		
+}
+
+.section-webinar{
+	background:#d78e1c !important;	
+}
+
+.section-white-paper{
+	background:#359ee7 !important;	
+}
+
+.section-feature{
+	background:#600c9b !important;	
+}
+
+.section-news{
+	background:#D51900 !important;	
+}
+
+#latest-feature .feature-header{
+	background:#999999 !important;
+	margin:0;
+	clear:both;
+}
+
+#latest-feature .feature{
+	border-bottom:2px solid #600c9b !important;
+	background:none;
+}
+
+#latest-feature .product-review{
+	border-bottom:2px solid #e7356f !important;
+	background:none;
+}
+
+#latest-feature .ceo-interview{
+	border-bottom:2px solid #78c639 !important;
+	background:none;
+}
+
+#latest-feature .market-analysis{
+	border-bottom:2px solid #b739c6 !important;
+	background:none;		
+}
+
+#latest-feature .webinar{
+	border-bottom:2px solid #d78e1c !important;
+	background:none;
+}
+
+#latest-feature .white-paper{
+	border-bottom:2px solid #359ee7 !important;
+	background:none;
+}
+
+.channel-section .channel-header{
+	background:#999999;
+	border-bottom:2px solid #006699;
+}
+
+.channel-section .news{
+	background:#999999 !important;
+	border-bottom:2px solid #d51900 !important;
+}
+
+.channel-section .feature{
+	background:#999999 !important;
+	border-bottom:2px solid #600c9b !important;
+}
+
+.channel-section .product-review{
+	background:#999999 !important;
+	border-bottom:2px solid #e7356f !important;
+}
+
+.channel-section .ceo-interview{
+	background:#999999 !important;
+	border-bottom:2px solid #78c639 !important;	
+}
+
+.channel-section .market-analysis{
+	background:#999999 !important;
+	border-bottom:2px solid #b739c6 !important;		
+}
+
+.channel-section .webinar{
+	background:#999999 !important;
+	border-bottom:2px solid #d78e1c !important;	
+}
+
+.channel-section .white-paper{
+	background:#999999 !important;
+	border-bottom:2px solid #359ee7 !important;	
+}
+
+.channel-content .ceo-interview{
+	background:#ffffff !important;
+	color:#78c639 !important;
+	border-bottom:none !important;
+}
+
+.channel-content .news{
+	background:#ffffff !important;
+	color:#d51900 !important;
+	border-bottom:none !important;
+}
+
+.channel-content .feature{
+	background:#ffffff !important;
+	color:#600c98 !important;
+	border-bottom:none !important;
+}
+
+.channel-content .market-analysis{
+	background:#ffffff !important;
+	color:#b739c6 !important;
+	border-bottom:none !important;
+}
+
+.channel-content .product-review{
+	background:#ffffff !important;
+	color:#e7356f !important;
+	border-bottom:none !important;
+}
+
+.channel-content .webinars{
+	background:#ffffff !important;
+	color:#d78e1c !important;
+	border-bottom:none !important;
+}
+
+.channel-content .white-papers{
+	background:#ffffff !important;
+	color:#359ee7 !important;
+	border-bottom:none !important;
+}
+
+.channel-content .white-paper{
+	background:#ffffff !important;
+	color:#359ee7 !important;
+	border-bottom:none !important;
+}

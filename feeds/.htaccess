@@ -1,0 +1,19 @@
+RewriteEngine on
+
+RewriteRule ^bi_bpm_cpm.rss$ fsn-rss.php?filter=sector&section=bi_bpm_cpm
+RewriteRule ^document_management.rss$ fsn-rss.php?filter=sector&section=document_management
+RewriteRule ^enterprise_financials.rss$ fsn-rss.php?filter=sector&section=enterprise_financials
+RewriteRule ^financial_reporting.rss$ fsn-rss.php?filter=sector&section=financial_reporting
+RewriteRule ^human_resources.rss$ fsn-rss.php?filter=sector&section=human_resources
+RewriteRule ^kpi_environment.rss$ fsn-rss.php?filter=sector&section=kpi_environment
+RewriteRule ^mid_range_accounting.rss$ fsn-rss.php?filter=sector&section=mid_range_accounting
+RewriteRule ^outsourcing.rss$ fsn-rss.php?filter=sector&section=outsourcing
+RewriteRule ^sme_accounting.rss$ fsn-rss.php?filter=sector&section=sme_accounting
+
+RewriteRule ^ceo_interviews.rss$ fsn-rss.php?filter=type&section=ceo-interview
+RewriteRule ^market_analysis.rss$ fsn-rss.php?filter=special&section=market-analysis
+RewriteRule ^product_reviews.rss$ fsn-rss.php?filter=type&section=product-review
+RewriteRule ^webinars.rss$ fsn-rss.php?filter=type&section=webinar
+RewriteRule ^white_papers.rss$ fsn-rss.php?filter=type&section=white-paper
+
+RewriteRule ^news.rss$ fsn-rss.php?filter=type&section=news

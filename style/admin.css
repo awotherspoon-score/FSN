@@ -1,0 +1,190 @@
+ul{
+	margin-bottom:0;	
+	padding-bottom:10px;
+}
+
+#login-form{
+	width:300px;
+	margin:0 auto;
+	/*text-align:center;*/
+}
+
+#login-form label{
+	width:80px;
+}
+
+#login-form input{
+	width:200px;
+}
+
+#login-form #login{
+	width:auto;
+	float:right;
+}
+
+form{
+	padding:15px;
+	margin:0;
+}
+
+form label{
+	width:200px;	
+	display:inline-block;
+	vertical-align:top;
+}
+
+form input,textarea,select{
+	width:250px;
+	
+}
+
+form .description{
+	width:700px;	
+	height:100px;
+}
+
+form .keywords,.title,.course{
+	width:700px;	
+}
+
+form .code{
+	width:250px;	
+}
+
+form .date,form .add_date{
+	width:auto;	
+}
+
+form .month{
+	width:144px;	
+}
+
+form .intro,form .prog{
+	width:700px;
+	height:100px;
+}
+
+form .content{
+	width:700px;
+	height:250px;
+}
+
+#article_hide,#article_ma{
+	width:auto;
+	margin-left:0;
+}
+
+#article_preview,#page_submit,#course_preview,#adverts{
+	width:auto;	
+	margin-left:200px;
+}
+
+#article_submit,#course_submit{
+	width:auto;	
+	/*margin-left:200px;*/
+}
+
+.form-container, #advert-container{
+	border:1px solid #ffffff;
+	margin-bottom:10px;
+	padding:5px;
+}
+
+.error{
+	border:1px solid #cc0000;	
+	background:#ffdddd;
+}
+
+.end{
+	width:442px !important;
+}
+
+
+.help{
+	font-family:"Courier New", Courier, monospace;
+	font-size:12px;
+	width:700px;
+	display:inline;
+}
+
+.help .sector-tag .sector-tag-content{
+	font-size:1em;	
+}
+
+.help .sector-tag a{
+	color:#ffffff;
+	
+}
+
+.help .sector-tag a:hover{
+	color:#ffffff;
+	cursor:help;
+}
+
+#primary-nav li{
+	background:url('../images/nav-tab-admin.gif') no-repeat;
+	width:130px;
+}
+
+#primary-nav li:hover{
+	background-position:0 -31px;
+}
+
+.status-good{
+	margin:10px;
+	padding:10px;
+	border:1px solid #009900;
+	background:#ccffcc;
+}
+
+.status-bad{
+	margin:10px;
+	padding:10px;
+	border:1px solid #cc0000;
+	background:#ffdddd;
+}
+
+.mceEditor{
+	display:inline-block;	
+}
+
+.admin-full{
+	clear:both;
+	width:944px !important;
+	margin:0 15px 0 !important;
+}
+
+.admin-full .channel-section li a{
+	font-size:0.9em;
+	/*line-height:1.2em;*/
+}
+
+.current_courses{
+	width:480px;
+	display:inline-block;
+	border-right:1px solid #cc0000;
+	margin-right:10px;
+	padding-right:10px;
+	float:left;
+}
+
+.current_courses ul{
+	width:auto;
+}
+
+.course_dates{
+	display:inline-block;
+	width:425px;
+	vertical-align:top;
+}
+
+.course_dates ul{
+	display:inline-block;
+	width:auto;
+	border:none;
+}
+
+.course_dates ul li strong{
+	font-size:0.75em;
+	color:#666666;
+}

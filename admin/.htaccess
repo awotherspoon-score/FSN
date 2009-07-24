@@ -1,0 +1,24 @@
+RewriteEngine on
+
+RewriteRule ^articles$ articles.php
+RewriteRule ^pages$ pages.php
+RewriteRule ^courses$ courses.php
+RewriteRule ^adverts$ adverts.php
+
+RewriteRule ^add_new_article$ add_new_article.php
+
+RewriteRule ^channel_bi_bpm_cpm$ articles.php?filter=sector&section=bi_bpm_cpm
+RewriteRule ^channel_document_management$ articles.php?filter=sector&section=document_management
+RewriteRule ^channel_enterprise_financials$ articles.php?filter=sector&section=enterprise_financials
+RewriteRule ^channel_financial_reporting$ articles.php?filter=sector&section=financial_reporting
+RewriteRule ^channel_human_resources$ articles.php?filter=sector&section=human_resources
+RewriteRule ^channel_kpi_environment$ articles.php?filter=sector&section=kpi_environment
+RewriteRule ^channel_mid_range_accounting$ articles.php?filter=sector&section=mid_range_accounting
+RewriteRule ^channel_outsourcing$ articles.php?filter=sector&section=outsourcing
+RewriteRule ^channel_sme_accounting$ articles.php?filter=sector&section=sme_accounting
+
+RewriteRule ^channel_ceo_interviews$ articles.php?filter=type&section=ceo-interview
+RewriteRule ^channel_market_analysis$ articles.php?filter=both&section=market-analysis
+RewriteRule ^channel_product_reviews$ articles.php?filter=type&section=product-review
+RewriteRule ^channel_webinars$ articles.php?filter=type&section=webinar
+RewriteRule ^channel_white_papers$ articles.php?filter=type&section=white-paper 

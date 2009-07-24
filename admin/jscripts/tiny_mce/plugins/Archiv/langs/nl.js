@@ -1,0 +1,22 @@
+tinyMCE.addI18n('en.Archiv',{
+	Fdesc : "Voeg een bestand toe",
+	Idesc : "Voeg een afbeelding toe",
+	ErrorLoadingTree: "Error bij het aanmaken van de mappenlijst!",
+	NoFiles : "Deze map bevat nog geen bestanden!",
+	ErrorLoadingDirContent : "Error bij het laden van de mapinhoud!",
+	FileDelete : "Bestand verwijderen",
+	FileName: "Naam",
+	FileType: "Type",
+	FileSize: "Grootte",
+	FileDimentions: "Afmetingen",
+	FileInfo : "Bestandsinformatie",
+	FileClickToAdd: "Klik om toe te voegen",
+	ErrorAddingFolder : "Error bij het aanmaken van de map!",
+	ErrorDeletingFile : "Error bij het verwijderen van het bestand!",
+	ErrorDeletingFolder : "Error bij het verwijderen van de map!",
+	QuestionFolderName : "Geef een naam voor de nieuwe map",
+	QuestionPassword : "Geef uw wachtwoord",
+	ErrorReadingSettingsFile : "Error bij het lezen van de config!",
+	ConfirmDeleteFile : "Weet u zeker dat u dit bestand wilt verwijderen",
+	ConfirmDeleteFolder : "Weet u zeker dat u deze map wilt verwijderen"	
+});

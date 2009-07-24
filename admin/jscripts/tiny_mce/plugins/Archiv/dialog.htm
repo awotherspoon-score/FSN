@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>{#Archiv_dlg.Ftitle}</title>	
+	<link href="css/style.css" rel="stylesheet" type="text/css" rev="stylesheet" />
+	<!--[if IE]>
+    <link href="css/style_ie.css" type="text/css" rel="stylesheet" rev="stylesheet" />
+	<![endif]-->
+	
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/SWFupload/swfupload.js"></script>
+	<script type="text/javascript" src="js/SWFupload/handlers.js"></script>
+	<script type="text/javascript" src="js/prototype/prototype.js"></script>
+	<script type="text/javascript" src="js/prompt/Prompt.js"></script>
+	<script type="text/javascript" src="js/archiv.js"></script>
+	<script type="text/javascript">
+	function merge(direction){		
+		width = $("fileTree").style.width.slice(0,$("fileTree").style.width.indexOf('px',0));
+		if(direction == "left"){
+			width = Number(width) - 100;
+			if(width > 0){				
+				$("fileTree").style.width = width +"px";
+				$("splitter").style.left = width +"px";
+				$("fileBrowser").style.left = width +"px";
+			}
+		}
+		else{
+			if(Number(width) != 450){
+				width = Number(width) + 100
+				$("fileTree").style.width = width +"px";
+				$("splitter").style.left = width +"px";
+				$("fileBrowser").style.left = width +"px";
+			}
+		}
+	}	
+	</script>
+</head>
+
+<body>
+<div id="main">
+	<div id="fileTree" style="width:150px;">	
+		<div id="header_tree">{#Archiv_dlg.FtreeTitle}</div> 
+		<div id="loader_tree"></div>
+		<div id="treeView"></div>		
+		<div id="addFolderControls">
+			<input type="button" name="btnAddFolder" id="btnAddFolder" value="{#Archiv_dlg.AddFolder}" onclick="archiv.askFolderName();" />
+		</div>	
+	</div>
+	
+	<div id="splitter"><img src="img/bar_close.gif" alt="{#Archiv_dlg.BarClose}" title="{#Archiv_dlg.BarClose}" id="barClose" onclick="merge('left')" /> <img src="img/bar_open.gif" alt="{#Archiv_dlg.BarOpen}" title="{#Archiv_dlg.BarOpen}" id="barOpen" onclick="merge('right')" /></div>
+	
+	<div id="fileBrowser">
+		<div id="header_browser">
+			{#Archiv_dlg.ContentOf}: <div id="currentFolder">/</div> 
+			<div id="removeFolder"><a href="javascript:void(0);" onclick="archiv.deleteFolder($('currentFolder').innerHTML)">{#Archiv_dlg.RemoveDir}</a></div>
+		</div> 
+	    
+	    <div id="error"></div>
+		
+		<div id="loader_browser"></div>
+		
+		<div id="fileHolder"></div>			
+
+		<div id="fileControls">
+				<span id="buttonPlaceholder"> <span id="spanButtonPlaceholder" name="uploadFile"></span> </span>
+				<span id="divFilesInQueue">{#Archiv_dlg.UploadQueue}: <span id="filesInQueue">0</span></span>
+		</div>
+		
+<div id="divFileProgressContainer" style="height:75px;position:absolute; right:5px; bottom:5px;"></div>
+<div id="tooltip" class="transp95"></div>
+</body>

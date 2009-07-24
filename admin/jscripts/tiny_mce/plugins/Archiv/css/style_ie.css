@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+#fileTree ul{
+	list-style-image:none;
+	list-style: none;
+	margin:0px;	
+	padding-left:15px;		
+}
+
+#fileTree li a{
+	list-style-position: inside;
+	list-style-image:url(../img/folder.png);
+	margin-top:-2px;
+	margin-left:-20px;
+	padding-left:5px;
+	background-image:none;
+	background-position:0px; 
+	background-repeat:no-repeat;
+	border-left:none;
+	display:block;
+	height:18px;
+	padding-top:8px;
+}
+
+.transp80{ filter:alpha(opacity=80); }
+.transp95{ filter:alpha(opacity=95); }
+
+#fileBrowser #fileControls #buttonPlaceholder{
+	height:23px;
+}
+
+#splitter, #fileBrowser #fileHolder{ bottom:31px; }

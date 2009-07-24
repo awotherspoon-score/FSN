@@ -1,0 +1,22 @@
+tinyMCE.addI18n('de.Archiv',{
+	Fdesc : "Datei einf&uuml;gen",
+	Idesc : "Bild einf&uuml;gen",
+	ErrorLoadingTree: "Fehler beim Laden der Dateiliste!",
+	NoFiles : "Dieser Ordner enth&auml;lt keine Dateien!",
+	ErrorLoadingDirContent : "Fehler beim Laden des Verzeichnisinhalts!",
+	FileDelete : "L&ouml;sche Datei",
+	FileName: "Name",
+	FileType: "Typ",
+	FileSize: "Gr&ouml;&szlig;e",
+	FileDimentions: "Abmessungen",
+	FileInfo : "Datei-Info",
+	FileClickToAdd: "Hinzuf&uuml;gen",
+	ErrorAddingFolder : "Fehler beim Hinzuf&uuml;gen des Ordners!",
+	ErrorDeletingFile : "Fehler beim L&ouml;schen der Datei!",
+	ErrorDeletingFolder : "Fehler beim L&ouml;schen des Ordners!",
+	QuestionFolderName : "Geben Sie bitte einen Namen f&uuml;r den Ordner an",
+	QuestionPassword : "Geben Sie bitte Ihr Passwort ein",
+	ErrorReadingSettingsFile : "Fehler beim Lesen der Konfiguration!",
+	ConfirmDeleteFile : "Wollen Sie diese Datei wirklich l&ouml;schen",
+	ConfirmDeleteFolder : "Wollen Sie diesen Ordner wirklich l&ouml;schen"	
+});
